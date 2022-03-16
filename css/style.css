@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Inter";
+  src: local(""), url("../fonts/Inter-Regular.ttf") format("truetype"), url("../fonts/Inter-Medium.ttf") format("truetype"), url("../fonts/Inter-Bold.ttf") format("truetype"), url("../fonts/Inter-ExtraBold.ttf") format("truetype");
+}
+header nav ul, .header-contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  margin-top: 21px;
+  margin-bottom: 70px;
+}
+
+body {
+  background-color: #fff;
+  margin: auto;
+  width: 1216px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-logo {
+  background-image: url(../img/desktop.png);
+  background-repeat: no-repeat;
+  width: 152px;
+  height: 40px;
+}
+
+.header-avatar-icon {
+  background-image: url(../img/avatar_small.png);
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+}
+
+.header-btn {
+  width: 177px;
+  height: 30px;
+  margin: auto;
+  background-color: #000000;
+  border-radius: 4px;
+}
+.header-btn p {
+  margin: auto;
+  padding-top: 5px;
+  width: 153px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 22px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header-contact-info {
+  margin-bottom: 35px;
+}
+
+.header-contact-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header-contact-items .item-vk {
+  background-image: url(../img/vk.png);
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+  margin-right: 16px;
+}
+.header-contact-items .item-inst {
+  background-image: url(../img/instagram.png);
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+  margin-right: 16px;
+}
+.header-contact-items .item-whatsapp {
+  background-image: url(../img/whatsapp.png);
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+  margin-right: 31px;
+}
+
+.block-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.block-phone p {
+  font-weight: 600;
+  margin: auto;
+  margin-right: 13px;
+}
+
+.header-block-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li {
+  padding: auto;
+  list-style: none;
+  padding: 4px 12px;
+  background: #F2F2F2;
+  border-radius: 28px;
+}
+header nav ul li p {
+  margin: auto;
+}
+
+.ed-main-img {
+  width: 800px;
+  height: 496px;
+  background-image: url(../img/backgr-img.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.ed-main-img h1 {
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 60px;
+  color: #000000;
+  width: 506px;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.ed-main-img p {
+  font-size: 22px;
+  line-height: 40px;
+  color: #000000;
+  width: 552px;
+  padding-top: 21px;
+  padding-left: 40px;
+}
+.ed-main-img ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 23px;
+  margin-top: 68px;
+}
+.ed-main-img ul li {
+  margin-left: 33px;
+  padding-left: 7px;
+}
+.ed-main-img .moscow-img {
+  width: 135px;
+  height: 135px;
+  background-image: url(../img/Ellipse.png);
+  position: absolute;
+  left: 625px;
+  bottom: 40px;
+}
